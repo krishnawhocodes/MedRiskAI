@@ -37,12 +37,19 @@ _configure_logging()
 app = FastAPI(title=APP_TITLE)
 
 allow_all = len(CORS_ORIGINS) == 1 and CORS_ORIGINS[0] == "*"
+from fastapi.middleware.cors import CORSMiddleware
+import os
+from medrisk.config import CORS_ORIGINS
+
+origin_regex = os.getenv("MEDRISK_CORS_ORIGIN_REGEX")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=CORS_ORIGINS,
-    allow_credentials=False if allow_all else True,
+    allow_origins=CORS_ORIGINS,          # exact allowed origins list
+    allow_origin_regex=origin_regex,     # optional regex fallback (vercel previews)
+    allow_credentials=False,             # IMPORTANT: keep false (you don't need cookies)
     allow_methods=["*"],
-    allow_headers=["*"]
+    allow_headers=["*"],
 )
 
 
