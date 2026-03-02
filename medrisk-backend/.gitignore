@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual env
+.venv/
+venv/
+
+# Env files
+.env
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Data / models (keep in repo only if you really want)
+# Uncomment if you don't want to commit trained artifacts:
+# models/*.joblib
+# models/*.json

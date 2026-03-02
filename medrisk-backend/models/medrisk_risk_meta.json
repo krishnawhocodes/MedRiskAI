@@ -1,0 +1,123 @@
+{
+  "labels": [
+    "Anemia",
+    "Infection",
+    "Inflammation",
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Low Platelets",
+    "High Platelets",
+    "Diabetes",
+    "Dyslipidemia"
+  ],
+  "features": [
+    "Hemoglobin",
+    "WBC",
+    "Platelet Count",
+    "MPV",
+    "TSH",
+    "Glucose (Fasting)",
+    "Glucose (Random)",
+    "Total Cholesterol",
+    "LDL Cholesterol",
+    "HDL Cholesterol",
+    "GenderFemale"
+  ],
+  "trained_on": "synthetic_generator_v1",
+  "samples": 20000,
+  "metrics": {
+    "f1_micro": 0.6082039236156422,
+    "f1_macro": 0.5717908740399513,
+    "per_label_report": {
+      "Anemia": {
+        "precision": 0.72822910578609,
+        "recall": 0.8351206434316354,
+        "f1-score": 0.778020605682173,
+        "support": 1492.0
+      },
+      "Infection": {
+        "precision": 0.5135387488328664,
+        "recall": 0.78125,
+        "f1-score": 0.6197183098591549,
+        "support": 704.0
+      },
+      "Inflammation": {
+        "precision": 0.6214492753623189,
+        "recall": 0.6373365041617123,
+        "f1-score": 0.6292926328147931,
+        "support": 1682.0
+      },
+      "Hypothyroidism": {
+        "precision": 0.5352697095435685,
+        "recall": 0.5470737913486005,
+        "f1-score": 0.5411073825503355,
+        "support": 1179.0
+      },
+      "Hyperthyroidism": {
+        "precision": 0.15391705069124423,
+        "recall": 0.8186274509803921,
+        "f1-score": 0.2591155934833204,
+        "support": 204.0
+      },
+      "Low Platelets": {
+        "precision": 0.44172380019588636,
+        "recall": 0.874031007751938,
+        "f1-score": 0.586857514638907,
+        "support": 516.0
+      },
+      "High Platelets": {
+        "precision": 0.3749152542372881,
+        "recall": 0.6776960784313726,
+        "f1-score": 0.4827586206896552,
+        "support": 816.0
+      },
+      "Diabetes": {
+        "precision": 0.5243804956035172,
+        "recall": 0.573928258967629,
+        "f1-score": 0.5480367585630743,
+        "support": 1143.0
+      },
+      "Dyslipidemia": {
+        "precision": 0.8069403714565004,
+        "recall": 0.6199774690199024,
+        "f1-score": 0.7012104480781483,
+        "support": 2663.0
+      },
+      "micro avg": {
+        "precision": 0.5552819698173154,
+        "recall": 0.6722761804019617,
+        "f1-score": 0.6082039236156422,
+        "support": 10399.0
+      },
+      "macro avg": {
+        "precision": 0.5222626457454755,
+        "recall": 0.7072268004547981,
+        "f1-score": 0.5717908740399513,
+        "support": 10399.0
+      },
+      "weighted avg": {
+        "precision": 0.6190901332902847,
+        "recall": 0.6722761804019617,
+        "f1-score": 0.6286049406305134,
+        "support": 10399.0
+      },
+      "samples avg": {
+        "precision": 0.5427904761904762,
+        "recall": 0.6476541666666665,
+        "f1-score": 0.5553552281052282,
+        "support": 10399.0
+      }
+    },
+    "roc_auc": {
+      "Anemia": 0.9029937978629244,
+      "Infection": 0.890571560569285,
+      "Inflammation": 0.746337662444253,
+      "Hypothyroidism": 0.7387309945793079,
+      "Hyperthyroidism": 0.8792769478708238,
+      "Low Platelets": 0.9323824749241271,
+      "High Platelets": 0.7587824231451374,
+      "Diabetes": 0.7580585940933091,
+      "Dyslipidemia": 0.7187183237085621
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿Hemoglobin,WBC,TSH,MPV,disease
+14.5,7.2,1.5,8.9,Healthy
+15,6.5,2,9.1,Healthy
+13.9,8,1.2,9,Healthy
+10.2,6,1.8,9.2,Anemia
+9.5,7.1,2.2,9,Anemia
+11,8,1,8.8,Anemia
+14,15.5,1.5,9,Infection
+13.5,18,2,9.3,Infection
+15,12,1.9,8.9,Infection
+14.2,7,5.8,9.1,Hypothyroidism
+13.8,6.5,6.2,9,Hypothyroidism
+14,8,7,8.8,Hypothyroidism
+13.5,8.2,1,10.5,Inflammation
+14,7.5,1.5,11.2,Inflammation
+15,6.9,2,10.8,Inflammation
+10.5,8,5.5,10.7,Autoimmume Disorder
+9.8,7.5,6,11,Autoimmume Disorder
+11,6.8,6.5,10.9,Autoimmume Disorder
+14.8,6.8,1.3,9.3,Healthy
+9.2,6.2,1.9,9.1,Anemia
+14,16,1.8,9.4,Infection
+13.9,7.1,5.9,9,Hypothyroidism
+13.6,8.1,1.1,10.6,Inflammation
+10.2,7.7,6.1,11.1,Autoimmume Disorder

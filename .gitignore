@@ -1,0 +1,14 @@
+# Secrets
+.env
+.env.*
+client/.env
+medrisk-backend/.env
+
+# Node
+node_modules/
+dist/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
